@@ -8,15 +8,14 @@ cask "input-leap" do
   url "https://github.com/input-leap/input-leap/releases/download/v#{version}/InputLeap_#{version}_macos_#{arch}.dmg",
       verified: "github.com/input-leap/input-leap/"
 
-  name "Input Leap"
+  name "InputLeap"
   desc "Keyboard and mouse sharing software"
   homepage "https://input-leap.org/"
 
-  app "Input Leap.app"
+  app "InputLeap.app"
 
   zap trash: [
-    "~/Library/Application Support/Input Leap",
-    "~/Library/Preferences/org.input-leap.plist",
-    "~/Library/Logs/Input Leap",
+    "~/Library/Application Support/InputLeap",
+    "~/Library/Preferences/input-leap.plist",
   ]
 end
