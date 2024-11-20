@@ -47,7 +47,7 @@ This tap uses a Homebrew cask formula to download the DMG file from the
 
 The app is then installed to your `/Applications` directory.
 
-### Feedback and Contributions
+## Feedback and Contributions
 
 If you encounter any issues or have suggestions for improvement, feel free to open an issue or
 submit a pull request.
