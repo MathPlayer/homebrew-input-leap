@@ -1,4 +1,6 @@
-# Homebrew Input Leap Tap
+# Homebrew Input Leap Tap for macOS
+
+ **⚠️ Warning:** This cask formula works only for macOS.
 
 This is a Homebrew tap for installing [Input Leap](https://input-leap.org/), a keyboard and mouse sharing software,
 using the official precompiled DMG releases.
